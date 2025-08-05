@@ -58,7 +58,7 @@
     datetime(year:2025, month:4, day:1),
   )[
     - Led project coordinators for the academic year, overseeing the development of all internal software applications for NIAEFEUP.
-    - Introduced weekly sprints to project teams, leading to better task organization and improved productivity.
+    // - Introduced weekly sprints to project teams, leading to better task organization and improved productivity.
   ]
   #work-heading(
     "Software Engineer Intern",
@@ -67,7 +67,6 @@
     datetime(year:2024, month:6, day:1),
     datetime(year:2024, month:7, day:1),
   )[
-    - Upgraded a core Flutter application by refactoring the codebase.
     - Implemented the provider pattern, resulting in increased performance and maintainability.
     - Built a comprehensive testing suite with Mockito for unit and integration tests to ensure application stability.
   ]
@@ -78,8 +77,7 @@
     datetime(year:2023, month:3, day:1),
     datetime(year:2025, month:6, day:1),
   )[
-    - Conducted weekly tutoring sessions for 30+ students.
-    - Tutoring sessions led to a clear improvement in the students average exam performance.
+    - Conducted weekly tutoring sessions for 30+ students, leading to a clear improvement in exam performance.
   ]
 ]
 
@@ -91,22 +89,17 @@
     - Collaborated on an open-source project at NIAEFEUP, contributing to Kubernetes manifests, Ansible Playbooks and CI/CD pipeline workflows.
     - Helped to achieve a reliable and available systems for all of NIAEEUP's applications.
   ]
-  // #project-heading(
-  //   "tinyrp",
-  // )[
-  //   - Implemented a lighweight Reverse Proxy server in Go
-  //   - Developed configurable endpoints, health checks and Docker containers for testing
-  // ]
+  #project-heading(
+    "tinyrp",
+  )[
+    - Implemented a lighweight Reverse Proxy server in Go
+    - Developed configurable endpoints, health checks and Docker containers for testing
+  ]
   #project-heading(
     "uSettle",
   )[
     - Developed an expense-sharing Flutter application during a hackathon, with a focus on a clean user interface for simple expense tracking between groups.
   ]
-  // #project-heading(
-  //   "everyday.dev",
-  // )[
-  //   - Built a full-stack application based on the famous daily-dev website using the Laravel framework, allowing developers to share and create news.
-  // ]
   #project-heading(
     "Self hosted infrastructure (carlos)",
   )[

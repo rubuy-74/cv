@@ -1,3 +1,5 @@
+// This is the file that generates ththat generates the pdf
+
 #import "@preview/simple-technical-resume:0.1.0": *
 
 #let name = "Rubem Neto"

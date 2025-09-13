@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'rubem-cv.pdf'
+      - 'rubem-cv.typ'
 
 jobs:
   deploy:

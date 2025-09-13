@@ -6,6 +6,7 @@ on:
     paths:
       - 'rubem-cv.pdf'
       - 'rubem-cv.typ'
+      - '.github/workflows/deploy-cv.yml'
 
 jobs:
   deploy:

@@ -1,0 +1,7 @@
+name = "cv-worker"
+main = "src/index.js"
+compatibility_date = "2024-09-13"
+
+[[r2_buckets]]
+binding = "CV_BUCKET"
+bucket_name = "cv-bucket"

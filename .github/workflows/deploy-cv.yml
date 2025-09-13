@@ -18,7 +18,7 @@ jobs:
 
       - name: Upload to R2
         run: |
-          wrangler r2 object put cv-bucket/rubem-cv.pdf --file=./rubem-cv.pdf
+          wrangler r2 object put cv-bucket/rubem-cv.pdf --file=./rubem-cv.pdf --remote
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}

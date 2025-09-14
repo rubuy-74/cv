@@ -1,3 +1,5 @@
+Disclaimer: This file gives context about the experiences that are present on the CV. For even more detail for each of those (and others) you can access https://rubuy.me
+
 # Head of Projects (NIAEFEUP)
 ## Overview
 

@@ -22,7 +22,7 @@
   linkedin-user-id: linkedin,
   github-username: github
 )
-
+#show link: underline
 #custom-title("Education")[
   #education-heading(
     "University of Porto", "Porto, Portugal",
@@ -107,11 +107,17 @@
     - Built CI/CD workflows, strengthening system availability for \~4 core applications.
   ]
   #project-heading(
-    "Self hosted infrastructure (carlos)",
+    "pstr",
   )[
-    - Configured and managed a personal physical server (Proxmox), hosting daily-use applications.
-    - Deployed services including Vaultwarden, Wireguard, Syncthing, and Docmost using Docker/Ansible automation.
+    - Implemented a Regex Engine from scratch in Golang and integrated it in my #link("https://rubuy.me/playground/pstr")[personal website].
+    - Designed and wrote Unit Tests and Integration Tests for the project's functionalities.
   ]
+  // #project-heading(
+  //   "Self hosted infrastructure (carlos)",
+  // )[
+  //   - Configured and managed a personal physical server (Proxmox), hosting daily-use applications.
+  //   - Deployed services including Vaultwarden, Wireguard, Syncthing, and Docmost using Docker/Ansible automation.
+  // ]
 ]
 
 #custom-title("Skills")[

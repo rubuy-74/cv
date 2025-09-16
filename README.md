@@ -1,4 +1,6 @@
-# CV Hosting w/Cloudflare Workers
+<h1 align="center">
+    CV Hosting w/Cloudflare Workers
+</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/cloudflare-workers-orange" alt="Cloudflare Workers" />

@@ -31,7 +31,13 @@
    cd cv
    ```
 
-2. **Create API Tokens (for R2 Access and Workers Access)**
+2. **Configure Cloudflare Worker**
+    - Login to your Cloudflare dashboard
+    - Create a new Worker
+    - In `Settings -> Custom Domains`, add your desired subdomain (e.g., cv.yourdomain.com)
+    - Note down your Account ID and Worker name
+
+3. **Create API Tokens (for R2 Access and Workers Access)**
     - R2 Access Keys (for file upload): 
         - **In the Cloudflare Dashboard**: `R2 -> Manage Buckets -> (your_bucket) -> Settings -> Create Access Key`
         - `R2_ACCESS_KEY_ID`
@@ -44,15 +50,8 @@
         - `CLOUDFLARE_API_TOKEN`
         - `CLOUDFLARE_ACCOUNT_ID`
 
-3. **Configure Cloudflare Worker**
-    - Login to your Cloudflare dashboard
-    - Create a new Worker
-    - In "Settings" > "Custom Domains", add your desired subdomain (e.g., cv.yourdomain.com)
-    - Note down your Account ID and Worker name
-
-
 4. **Set up GitHub Secrets**
-   In your forked repository, add these secrets under Settings > Secrets:
+   In your forked repository, add these secrets under `Settings -> Secrets`:
     - `R2_ACCESS_KEY_ID`: Your R2 Access Key ID
     - `R2_SECRET_ACCESS_KEY`: Your R2 Secret Access Key
     - `CLOUDFLARE_API_TOKEN`: Your Cloudflare API token

@@ -33,16 +33,16 @@
 
 2. **Create API Tokens (for R2 Access and Workers Access)**
     - R2 Access Keys (for file upload): 
-        - **In the Cloudflare Dashboard**: R2 -> Manage Buckets -> (your_bucket) -> Settings -> Create Access Key
-        - R2_ACCESS_KEY_ID
-        - R2_SECRET_ACCESS_KEY
+        - **In the Cloudflare Dashboard**: `R2 -> Manage Buckets -> (your_bucket) -> Settings -> Create Access Key`
+        - `R2_ACCESS_KEY_ID`
+        - `R2_SECRET_ACCESS_KEY`
     - Cloudflare API Token (for deploying workers):
-        - In the Cloudflare Dashboard: My Profile -> API Token -> Create Token
+        - **In the Cloudflare Dashboard**: `My Profile -> API Token -> Create Token`
         - Permissions:
-            1. Account -> Worker Scripts -> Edit
-            2. Account -> Workers R2 Storage -> Edit
-        - CLOUDFLARE_API_TOKEN
-        - CLOUDFLARE_ACCOUNT_ID
+            1. `Account -> Worker Scripts -> Edit`
+            2. `Account -> Workers R2 Storage -> Edit`
+        - `CLOUDFLARE_API_TOKEN`
+        - `CLOUDFLARE_ACCOUNT_ID`
 
 3. **Configure Cloudflare Worker**
     - Login to your Cloudflare dashboard

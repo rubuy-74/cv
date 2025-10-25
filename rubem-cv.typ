@@ -112,12 +112,6 @@
     - Implemented a Regex Engine from scratch in Golang and integrated it in my #link("https://rubuy.me/playground/pstr")[personal website].
     - Designed and wrote Unit Tests and Integration Tests for the project's functionalities.
   ]
-  // #project-heading(
-  //   "Self hosted infrastructure (carlos)",
-  // )[
-  //   - Configured and managed a personal physical server (Proxmox), hosting daily-use applications.
-  //   - Deployed services including Vaultwarden, Wireguard, Syncthing, and Docmost using Docker/Ansible automation.
-  // ]
 ]
 
 #custom-title("Skills")[

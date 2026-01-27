@@ -5,7 +5,7 @@
 
 #let name = "Rubem Neto"
 #let phone = "+351 938 043 682"
-#let email = "rubemviscard2635@gmail.com"
+#let email = "me@rubuy.me"
 #let github = "rubuy-74"
 #let linkedin = "rubemneto74"
 #let personal-site = "rubuy.me"
